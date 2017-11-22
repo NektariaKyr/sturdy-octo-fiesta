@@ -1,0 +1,80 @@
+/* This is a CSS comment. Notice that CSS comments are
+enclosed by different characters than HTML comments. */
+
+/* CSS allows you to give your page style (colors, shapes, fonts, etc.)
+You can apply CSS elements to entire HTML classes. Review Lesson 1.3
+if you need a refresher about how to do this. */
+*{
+  webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  box-sizing:border-box;
+}
+/*{
+  outline:1px solid red !important;*/
+}
+body{
+  padding: 20px 10px;
+  font-family: Helvetica;
+  max-width: 2000px;
+  margin: 0;
+  font-size: 1.4em;
+}
+ul  {
+    list-style: square url("sqpurple.gif");
+}
+.div{
+  width:70%;
+  margin-top: 20px;
+}
+.screenshot{
+  max-width: 460px;
+  display: flex;
+}
+.header-image{
+  height:300px;
+}
+.image-container{
+  text-align: center;
+}
+.subheader{
+  text-align: center;
+  color:#294860;
+}
+.lesson{
+  background-color: #5F9EA0;
+  border-radius: 20px;
+  color: white;
+  padding: 10px;
+  margin: 10px auto;
+}
+.concept{
+  padding: 4px;
+  margin: 10px;
+  border-radius: 4px;
+  color:black;
+  background: -webkit-linear-gradient(left, rgba(0,0,255,0), rgba(0,0,255,1)); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(right, rgba(0,0,255,0), rgba(0,0,255,1)); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(right, rgba(0,0,255,0), rgba(0,0,255,1)); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to right, rgba(0,0,255,0), rgba(0,0,255,1)); /* Standard syntax (must be last) */
+}
+#table_of_contents{
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px auto;
+  text-align: center;
+  background: -webkit-linear-gradient(left, rgba(0,0,255,0), rgba(0,0,255,1)); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(right, rgba(0,0,255,0), rgba(0,0,255,1)); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(right, rgba(0,0,255,0), rgba(0,0,255,1)); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to right, rgba(0,0,255,0), rgba(0,0,255,1)); /* Standard syntax (must be last) */
+}
+.supporting-info{
+  font-style: italic;
+}
+.concept_title{
+  text-align: center;
+}
+.Back{
+  text-align: center;
+  font-weight: bold;
+}
