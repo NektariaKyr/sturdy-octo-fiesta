@@ -9,14 +9,15 @@ text that will be ignored by the computer! -->
   <title>MY HTML NOTES</title> <!-- This is the title of your page (what appears in the name of a browser tab) -->
   <link rel="stylesheet" href="style.css"> <!-- This line links your CSS stylesheet to your HTML (see Lesson 1.3) -->
 </head>
-<div class="image-container">
-<img class="header-image" src="images/project2.png" alt="image">
-</div>
+
 <body> <!-- The body tag is where the "flesh" of your HTML goes -->
+  <div class="image-container">
+  <img class="header-image" src="images/project2.png" alt="image">
+  </div>
   <h1 class="subheader"> IMPORTANT CONCEPTS OF HTML </h1>
   <div ID="table_of_contents">
     <h2 class="subheader"> TABLE OF CONTENTS </h2>
-    <ul display="flex">
+    <ul>
     <li><a href="#LESSON1"> LESSON 1 </a></li>
     <li><a href="#LESSON2"> LESSON 2 </a></li>
     <li><a href="#LESSON3"> LESSON 3 </a></li>
@@ -270,7 +271,7 @@ text that will be ignored by the computer! -->
           <div class="ideaname"><!--Idea 1-->
            <b> Method 1 : Link your CSS in your HTML document </b>
             <div class="idea-info">
-             <p> This method lets you stay more organised when working on larger projects.
+             This method lets you stay more organised when working on larger projects.
               To do this :
               <br>
               <br>
@@ -287,13 +288,11 @@ text that will be ignored by the computer! -->
               <div class="image-container" >
                 <img src="images/code.png" alt="image">
               </div><!--Closing div of image-->
-            </p>
           </div><!--End of idea 1 info -->
         </div><!--End of idea 1-->
         <div class="ideaname"><!--Idea 2-->
          <b> Method 2 : Write CSS in the head element of your html </b>
           <div class="idea-info">
-           <p>
              If you want to quickly style an htm; document., you can do the following:
             <br>
             <br>
@@ -304,7 +303,6 @@ text that will be ignored by the computer! -->
             <div class="image-container" >
               <img src="images/code2.png" alt="image">
             </div>
-           </p>
          </div><!--End of idea 2 info-->
         </div><!--End of idea 2-->
        </div> <!--Closing supporting info-->
@@ -329,7 +327,7 @@ text that will be ignored by the computer! -->
             <div class="ideaname"><!--Idea 1-->
              <b> Box Sizing </b>
               <div class="idea-info">
-               <p>  Because there are so many components to each box it can be really hard to define the size of the box just right. <br>
+             Because there are so many components to each box it can be really hard to define the size of the box just right. <br>
              By Default the size of your actual element is the sum of the border,padding and content width.
              There are two techniques you can use to help you deal with sizing issues:<br>
               <br>
@@ -340,13 +338,12 @@ text that will be ignored by the computer! -->
               <img src="images/boxsizing.png" alt="image">
               </div> <br> <br>
               <b> 2) Set Sizes in terms of percentages</b>
-              </p> <!--Closing the box Sizing -->
              </div><!--End of idea 1 info -->
             </div><!--End of idea 1-->
             <div class="ideaname"><!--Idea 2-->
            <b> Box Positioning </b>
             <div class="idea-info">
-             <p> Divs are block elements so by default thay take up the entire width of the page.
+             Divs are block elements so by default thay take up the entire width of the page.
              There are many things you can do in CSS to position boxes. And it's probably one of the most
              complicated things you can do in CSS. You can use Flexbox. Flexbox means flexible box and
              it provides an efficient way to lay out, align and distribute space among items in a container or div.
@@ -361,17 +358,15 @@ text that will be ignored by the computer! -->
              In the above example we grouped some elements under a class. The property we changed under this class
              is the display and we set this to the value flex. By doing so the boxes (that are grouped under this class) will be alligned next
              to each other in our website .
-             </p>
            </div><!--End of idea 2 info -->
          </div><!--End of idea 2-->
            <div class="ideaname"><!--Idea 3-->
           <b> Adding Image </b>
            <div class="idea-info">
-            <p>In your HTML code create the following div : <br>
+            In your HTML code create the following div : <br>
               <div class="image-container" >
               <img src="images/addimage.png" alt="image">
               </div>
-            </p>
           </div><!--End of idea 3 info -->
         </div><!--End of idea 3-->
       </div> <!--Closing supporting info-->
@@ -381,14 +376,12 @@ text that will be ignored by the computer! -->
       <b> HTML - CSS Example </b>
     </div>
         <div class="supporting-info">
-          <p>
-            <div class="image-container">
+          <div class="image-container">
             <img  src="images/exampleapp.png" alt="image">
-            </div>
-            <div class="image-container" >
+          </div>
+          <div class="image-container" >
             <img  src="images/examplecss.png" alt="image">
-            </div>
-          </p>
+          </div>
         </div> <!--Closing supporting info-->
       </div> <!--Closing div class concept-->
       <div class="concept">
@@ -396,7 +389,6 @@ text that will be ignored by the computer! -->
        <b> Code - Test - Refine </b>
      </div>
          <div class="supporting-info">
-           <p>
              How shall I know what to refine to look closer to my design mock up?
              <br><br>
              1) Firstly you need to get the structure of the page right. You can do this by boxifying the design.<br>
@@ -414,7 +406,6 @@ text that will be ignored by the computer! -->
              <br>
              Repeat points 3 and 4 until you are happy with the result. And remember Developer Tools can
              also help you!
-           </p>
          </div> <!--Closing supporting info-->
        </div> <!--Closing div class concept-->
   </div><!--Closing div class lesson--> <!--End of Lesson 4-->
